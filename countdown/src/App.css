@@ -1,0 +1,46 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  background: url('bg-stars.svg') center/cover no-repeat;
+  background-color: rgb(32, 30, 41);
+}
+
+.App {
+  text-align: center;
+}
+
+.CountDown {
+  font-size: 2rem;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgb(32, 30, 41);
+}
+
+.CountDown h2 {
+  font-size: 3rem;
+  color: rgb(252, 145, 163);
+}
+
+.CountDown p {
+  font-size: 2.5rem;
+  color: rgb(252, 145, 163);
+}
+
+body::after {
+  content: '';
+  background: url('pattern-hills.svg') bottom center/cover no-repeat;
+  position: fixed;
+  width: 100%;
+  height: 27vh;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
